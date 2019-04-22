@@ -2,6 +2,8 @@ package com.example.projectulang.model;
 
 import com.google.gson.annotations.SerializedName;
 
+import java.util.List;
+
 public class AlquranResponse{
 
 	@SerializedName("ar")
@@ -20,7 +22,7 @@ public class AlquranResponse{
 		this.ar = ar;
 	}
 
-	public String getAr(){
+	public List<AlquranResponse> getAr(){
 		return ar;
 	}
 
